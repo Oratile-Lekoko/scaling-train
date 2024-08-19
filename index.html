@@ -1,0 +1,101 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('C:\Users\Oratile Lekoko\OneDrive\Documents\Pictures\todo-list.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+             font-family: 'Brush Script MT', cursive;
+             background: -webkit-linear-gradient(left, #ff69b4, #34c759, #ff99cc);
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+        }
+        h2 {
+            font-family: 'Didot', serif;
+            color: #6c5ce7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <input type="text" id="task-input" placeholder="Enter a task">
+        <button id="add-task-btn">Add Task</button>
+        <ul class="todo-list" id="todo-list">
+           tasks will be rendered here
+        </ul>
+        <h2>Done that!!!</h2>
+        <ul class="done-list" id="done-list">
+            done tasks will be rendered here
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('C:/Users/Oratile Lekoko/OneDrive/Documents/Pictures/background.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            font-family: 'Brush Script MT', cursive;
+            background: -webkit-linear-gradient(left, #ff69b4, #34c759, #ff99cc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2 {
+            font-family: 'Didot', serif;
+            color: #6c5ce7; /* royal purple color for h2 */
+        }
+        #add-task-btn {
+            font-size: 16px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 50%; /* make the button heart-shaped */
+            background-color: #ff69b4; /* pink background for add task button */
+            color: #fff;
+            cursor: pointer;
+        }
+        #add-task-btn:before {
+            content: "\2665"; /* heart symbol */
+            font-size: 24px;
+            position: relative;
+            top: -2px;
+            left: -5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <input type="text" id="task-input" placeholder="Enter a task">
+        <button id="add-task-btn">Add Task</button>
+        <ul class="todo-list" id="todo-list">
+            <!-- tasks will be rendered here -->
+        </ul>
+        <h2>Done that!!!</h2>
+        <ul class="done-list" id="done-list">
+            <!-- done tasks will be rendered here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

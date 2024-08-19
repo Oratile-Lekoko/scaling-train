@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: #c21818;  classic grey background */
+    background-image: url('C:\Users\Oratile Lekoko\OneDrive\Documents\Pictures\todo-list.jpg');
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* white background for container */
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* rounded corners */
+}
+
+h1,h2 {
+    font-family: 'Brush Script MT', cursive;
+
+}
+
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #453e3e;
+    display: flex; /* add flexbox to align delete button, done button, and task number */
+    justify-content: space-between;
+    align-items: center; /* vertically center the task text and buttons */
+    background-image: url('C:\Users\Oratile Lekoko\OneDrive\Documents\Pictures\todo-list.jpg');
+}
+
+.todo-list li:last-child {
+    border-bottom: none;
+}
+
+.task-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #acccf3; /* dark grey text color */
+    margin-right: 10px;
+}
+
+.task-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* dark grey text color */
+}
+
+.delete-btn {
+    background-color: #ff69b4; /* pink background for delete button */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* rounded corners for delete button */
+}
+
+.delete-btn:hover {
+    background-color: #ff99cc; /* hover effect for delete button */
+}
+
+.done-btn {
+    background-color: #34c759; /* green background for done button */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* rounded corners for done button */
+}
+
+.done-btn:hover {
+    background-color: #3e8e41; /* hover effect for done button */
+}
+
+.done-list {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7; /* light grey background for done list */
+    border: 1px solid #ccc;
+    border-radius: 10px; /* rounded corners for done list */
+}
+
+.done-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.done-list li:last-child {
+    border-bottom: none;
+}
